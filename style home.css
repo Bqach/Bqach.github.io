@@ -1,0 +1,61 @@
+.navflex-container {
+    background-color: black;
+    opacity: 0.5;
+    display: flex;
+    z-index: -1;
+}
+.spacebox {
+    background-color: black;
+    opacity: 0.34;
+    width: 100%;
+    height: 4%
+}
+nav{
+    margin:0;
+}
+.navflex-container > div {
+    opacity: 1;
+    z-index: -1;
+    
+}
+.insdieeclipse{
+    height:3.6%;
+    width:4.2%;
+    border-radius: 100%;
+    display: block;
+    color: #7F7F7F;
+    z-index: 2;
+    opacity: 0.4;
+}
+.page1 {
+    color:white;
+    list-style: none;
+    text-decoration: none;
+    z-index: 1;
+    font-size: 28px;
+}
+.page2 {
+    color:white;
+    list-style: none;
+    text-decoration: none;
+    z-index: 1;
+    font-size: 28px;
+}
+.page2div {
+    padding:1%;
+    text-align: center;
+    width: 10.5%;
+}
+.blankbox{
+    width: 35.4%;
+    padding: 1%;   
+}
+.page1div{
+    padding:1%;
+    text-align: center;
+    width: 10.5%;
+}
+body {
+    margin:0
+}
+
