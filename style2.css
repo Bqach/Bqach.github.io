@@ -62,16 +62,10 @@ h1 {
 body {
     margin: 0;
 }
-.background-img {
-    position: relative;
-    z-index: -100;
-    width: 100%;
-    max-height: 670px;
-}
+
 .page1div:hover, .page2div:hover, .titlebox:hover{
     background-color: rgba(191,191,191,0.7);
 }
 nav {
     position: fixed;
 }
-
