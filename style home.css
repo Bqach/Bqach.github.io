@@ -1,5 +1,5 @@
 .navflex-container {
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.9);
     display: flex;
     position: fixed;
     z-index: -5;
@@ -38,26 +38,19 @@
     z-index: -1;
 }
 .titlebox{
-    text-align: none;
-    padding: 0.4%;
-    text-decoration: none;
-    width: 13%;
+    padding: 2%;
     position: fixed;
     background-color: rgba(23,164,12,0.8);
-   
-}
-.homepagelink {
-    text-decoration: none;
-}
-
-
-h1 {
     text-align: center;
+}
+.homepagelink    {
     color:white;
     position: relative;
     z-index: 5;
     font-family: 'Spartan', sans-serif;
     text-decoration: none;
+    text-align: center;
+    font-size: 150%;
 }
 body {
     margin: 0;
@@ -66,7 +59,7 @@ body {
     position: relative;
     z-index: -100;
     width: 100%;
-    max-height: 670px;
+    max-height: 20%;
 }
 .page1div:hover, .page2div:hover, .titlebox:hover{
     background-color: rgba(191,191,191,0.7);
@@ -74,4 +67,65 @@ body {
 nav {
     position: fixed;
 }
-
+.middletext{
+    position: absolute;    
+    width: 100%;
+    padding-top: 12%;
+    padding-bottom: 14%;
+    top: 0%;
+    z-index: -2;
+    text-align: center;
+    background-image: url(background%20img.png);
+    background-size: cover;
+}
+h2 {
+    font-size: 400%;
+    position: relative;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+.introbox {
+    text-align: center;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 6%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    position:absolute;
+    top: 96.5%;
+    background-color: rgba(0,0,0,0.5)
+}
+h3{
+    font-size: 35px;
+    color: white;
+}
+p1 {
+     color: white;
+    font-size: 20px;
+}
+.linkbox1 {
+    position:  absolute;
+    top: 160%;
+    width:25%;
+    left:5%;
+    height: 50%;
+    background-color: black;
+   
+}
+.linkbox2 {
+    position:  absolute;
+    top: 160%;
+    left: 37.5%;
+    width:25%;
+    height: 50%;
+    background-color: black;
+}
+.linkbox3 {
+    position:  absolute;
+    top: 160%;
+    left: 69.5%;
+    width:25%;
+    height: 50%;
+    background-color: black;
+}
